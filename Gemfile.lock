@@ -274,6 +274,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   capybara
+  chunky_png (~> 1.4)
   debug
   importmap-rails
   jbuilder

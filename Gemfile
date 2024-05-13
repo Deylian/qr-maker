@@ -68,4 +68,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
 gem "rqrcode", "~> 2.0"
+
+gem 'chunky_png', '~> 1.4'
