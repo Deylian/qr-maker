@@ -1,6 +1,6 @@
 <div id="<%= dom_id qr_code %>">
   <p class="my-5">
-    <strong class="block font-medium mb-1">Link:</strong>
+    <strong class="block font-medium mb-1"> <%= image_tag("qrcode-#{qr_code.id}.png") %></strong>
     <%= qr_code.link %>
   </p>
 
